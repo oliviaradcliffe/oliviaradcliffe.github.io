@@ -1,0 +1,143 @@
+html {
+    box-sizing: border-box;
+}
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: lightgray;
+}
+
+.col-wide {
+    color: white;
+}
+
+#toTop {
+    font-size: 50px;
+    color: black;
+    text-decoration: none; /* removes underline */
+    position: fixed; /* fixed to certain position */
+    right: 50px;
+    bottom: 0;
+}
+
+/* HEADER STYLES */
+
+h1, h2 {
+    font-family: "Montserrat";
+    color: black;
+    margin: 0;
+    text-align: left;
+}
+
+h1 {
+    font-size: 3.5em;
+    padding-top: 15px;
+}
+
+h2 {
+    font-size: 2.5em;
+    padding-top: 10px;
+}
+
+.centered-content {
+    max-width: 60em;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: auto;
+}
+
+.col-narrow {
+    width: 33.34%;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+#profile-image {
+    max-width: 100%;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+/* HEADER AND FOOTER */
+
+header, footer {
+    background: lightpink;
+}
+
+header {
+    padding-top: 10px;
+}
+
+nav  {
+    background: grey;
+    text-align: center;
+    font-size:0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+nav a {
+    color: black; 
+    padding: 1rem; 
+    display: inline-block;  
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none; 
+}
+
+nav a:hover {
+    background-color: white;
+}
+
+.btn {
+    color: black;
+    text-decoration: none;
+    background: lightpink;
+}
+
+.download {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+footer { 
+    text-align: center;
+}
+
+footer h2{
+    font-size: 2em;
+}
+
+footer a { 
+    color: white;
+    padding: 10px;
+}
+footer a:hover {
+    text-decoration: none;
+}
+
+/* EXPERIENCE */
+
+#experience {
+    background: lightblue;
+}
+
+h3 ~ p {
+    margin: 0;
+}
+
+#education {
+    background: lightgrey
+}
